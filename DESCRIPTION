@@ -40,4 +40,4 @@ Suggests:
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Config/Needs/compile: cpp14, decor, glue, pkgbuild, pkgload
-Remotes: mrc-ide/monty
+Remotes: aeepstein/monty
