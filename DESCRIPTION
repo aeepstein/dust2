@@ -21,11 +21,11 @@ Imports:
     monty (>= 0.3.11),
     rlang
 LinkingTo:
-    cpp11,
+    cpp14,
     monty
 Suggests:
     callr,
-    cpp11,
+    cpp14,
     decor,
     fs,
     glue,
@@ -39,5 +39,5 @@ Suggests:
     withr
 VignetteBuilder: knitr
 Config/testthat/edition: 3
-Config/Needs/compile: cpp11, decor, glue, pkgbuild, pkgload
+Config/Needs/compile: cpp14, decor, glue, pkgbuild, pkgload
 Remotes: mrc-ide/monty
